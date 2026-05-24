@@ -1,32 +1,48 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>XYZ Bookstore Page</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XYZ Bookstore</title>
+  </head>
 
-<body>
-  <h1>XYZ Bookstore</h1>
-  <p>Browse our collection of amazing books!</p>
-  
-  <div class="card-container">
-    <div class="card" id="sally-adventure-book">
+  <body>
+
+    <!-- Store heading -->
+    <h1>XYZ Bookstore</h1>
+    <p>Browse our collection of amazing books!</p>
+
+    <hr />
+
+    <!-- Book 1 -->
+    <div id="sally-adventure-book">
       <h2>Sally's SciFi Adventure</h2>
+      <p><strong>Genre:</strong> Sci-Fi</p>
       <p>This is an epic story of Sally and her dog Rex as they navigate through other worlds.</p>
-      <button class="btn">Buy Now</button>
+      <p><strong>Price:</strong> ₹499</p>
+      <button>Buy Now</button>
     </div>
-    
-    <div class="card" id="dave-cooking-book">
+
+    <br />
+
+    <!-- Book 2 -->
+    <div id="dave-cooking-book">
       <h2>Dave's Cooking Adventure</h2>
+      <p><strong>Genre:</strong> Cooking</p>
       <p>This is the story of Dave as he learns to cook everything from pancakes to pasta, one recipe at a time.</p>
-      <button class="btn">Buy Now</button>
+      <p><strong>Price:</strong> ₹399</p>
+      <button>Buy Now</button>
     </div>
-  </div>
-  
-  <p>Review your selections and continue to checkout.</p>
-  
-  <div class="btn-container">
-    <button id="view-cart-btn" class="btn">View Cart</button>
-    <button id="checkout-btn" class="btn">Checkout</button>
-  </div>
-</body>
+
+    <hr />
+
+    <!-- Cart section -->
+    <p>Review your selections and continue to checkout.</p>
+
+    <div>
+      <button id="view-cart-btn">View Cart</button>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+
+  </body>
 </html>
