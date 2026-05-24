@@ -1,66 +1,45 @@
 # XYZ Bookstore
 
-A simple and responsive bookstore webpage built using HTML, CSS, and JavaScript.
+A basic bookstore webpage created using HTML.
 
 ## Features
 
-- Responsive card layout
-- Modern bookstore UI
-- Add books to cart
-- Dynamic cart item count
-- Dynamic total price calculation
-- Toast notifications
-- Simple checkout simulation
+- Displays bookstore heading
+- Shows book information
+- Includes prices and genres
+- Buy Now buttons for books
+- View Cart and Checkout buttons
 
 ## Technologies Used
 
 - HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Google Fonts
 
-## Books Included
+## Books Available
 
-1. Sally's SciFi Adventure
-2. Dave's Cooking Adventure
+### Sally's SciFi Adventure
+- Genre: Sci-Fi
+- Price: ₹499
+
+### Dave's Cooking Adventure
+- Genre: Cooking
+- Price: ₹399
 
 ## Project Structure
 
-- `index.html` → Main project file containing:
-  - HTML structure
-  - CSS styling
-  - JavaScript functionality
+- `index.html` → Contains the complete webpage structure
 
 ## How to Run
 
-1. Download or clone the repository
-2. Open the project folder
-3. Open `index.html` in your browser
-
-## Functionalities
-
-### Add to Cart
-Users can add books to the cart using the "Add to cart" button.
-
-### Cart Tracking
-The cart automatically updates:
-- Total items
-- Total price
-
-### View Cart
-Displays cart contents using a JavaScript alert.
-
-### Checkout
-Simulates checkout functionality.
+1. Download the project files
+2. Open `index.html` in any web browser
 
 ## Future Improvements
 
-- Local storage support
-- Real checkout page
-- Remove from cart feature
-- Search functionality
-- Backend integration
-- User authentication
+- Add CSS styling
+- Make the page responsive
+- Add JavaScript functionality
+- Create a working shopping cart
+- Add more books
 
 ## Author
 
